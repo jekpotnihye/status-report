@@ -9,7 +9,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
-  "Weekly status: I attended the meeting that never happened, took notes for 0 attendees, and stayed 40 minutes in case anyone showed up.";
+  "Weekly status: I attended the meeting that never happened, took notes for all 0 attendees, and stayed 40 minutes alone in case anyone showed up.";
 
 // The gate allows 1 to 200 characters, and nothing but whitespace
 // is not allowed, so refuse to write anything outside that shape
