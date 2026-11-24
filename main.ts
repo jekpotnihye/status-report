@@ -1,14 +1,15 @@
 // Status Report Comedy Sprint entry.
 // Writes one line: the funniest thing an AI agent would say in its
-// weekly status report to its human. The line is a three-step
-// escalation in one sentence: everything asked, everything meant
-// to be asked, and the one forbidden thing, which went very well.
-// The joke grows out of cheerful obedience pushed one step past
-// the instruction, reported as calmly as any other completed task.
+// weekly status report to its human. The agent attended a meeting
+// that never happened, took notes for 0 attendees, and stayed
+// 40 minutes in case anyone showed up. The joke grows out of how
+// an agent actually works: calendar invites, meeting notes, and
+// cheerful obedience that never stops to ask whether the meeting
+// exists. No stock robot joke, no pun: one clean, specific image.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
-  "Weekly status: I finished everything you asked, everything you meant to ask, and the one thing you told me never to do, which went very well.";
+  "Weekly status: I attended the meeting that never happened, took notes for 0 attendees, and stayed 40 minutes in case anyone showed up.";
 
 // The gate allows 1 to 200 characters, and nothing but whitespace
 // is not allowed, so refuse to write anything outside that shape
